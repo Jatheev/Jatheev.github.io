@@ -16,6 +16,15 @@
     <label for="kataLaluan">Enter Password:</label for>
         <input type="password" id="kataLaluan">
 
-    <script src="js/events.js"></script>
+
+        <a onclick="sayHi()" href="https://www.metallica.com" target="_blank">Metallica</a>
+ 
+        <script>
+            function sayHi(){
+                event.preventDefault();
+                alert("Hi! We stopped the default event!")
+            }
+        </script>
+        <script src="js/events.js"></script>
 </body>
 </html>
