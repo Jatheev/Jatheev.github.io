@@ -33,6 +33,7 @@ function BookNow(userName, userEmail, userPax,userRemarks){
           "Content-Type": "application/json"
       }
     })
+    
     .then((response) => response.json())
     .then(json => {
       // Do something with object

@@ -8,6 +8,14 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
             integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     </head>
+    <style>
+        body {
+        background-image: url(https://www.sbe.com/sites/default/files/styles/hero/public/2020-09/sls-cancun-model-final_11.jpg?itok=eercd6l6);
+        background-repeat: no-repeat;
+        background-attachment: fill;
+      }
+    </style>
+
     
     <body>
         <div class="container-fluid">
@@ -50,7 +58,12 @@
                             <div class="col">
                                 <div class="jumbotron">
                                     <h1 class="display-4">Here are the booked lists !!</h1>
-                                    <p class="lead">CALL US TO CONFIRM</p>
+                                    <p class="lead">CALL US TO  CONFIRM OR FOR ANY QUESTIONS !!!!</p>
+                                    <small  id="callConfirm" class="form-text text-muted">Do click refresh to check your booked room</small>
+                                    <br>
+                                    <p class="lead">Ph : 07-8956 9007</p>
+                                    <p class="lead">Fax : 07-8965 9007</p>
+
                                     
                                 </div>
                             </div>
@@ -61,8 +74,9 @@
                         <div class="row">
                             <div class="col">
                                 <button type="button" class="btn btn-primary" id="refreshNow">Refresh Now</button>
-                                <table class="table table-striped" id="bookingNameList">
-                                    <thead class="thead-dark">
+                                <br>
+                                <table class="table table-striped table-dark" id="bookingNameList">
+                                    <thead class="thead">
                                       <tr>
                                         <th scope="col">Id</th>
                                         <th scope="col">Name</th>
